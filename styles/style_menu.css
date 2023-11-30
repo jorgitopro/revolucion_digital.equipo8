@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+background: linear-gradient(80deg, #e1e1e2 20%, #6a77f1 90%);
+
+  }
+  .footer {
+order: 6;
+padding: 12px;
+-webkit-box-shadow: 0 -1px 1px rgb(0 0 0 / 20%);
+-moz-box-shadow: 0 -1px 1px rgb(0, 0, 0, 0.2);
+box-shadow: 0 -1px 1px rgb(0 0 0 / 20%);
+background-color: #000000;
+z-index: 3;
+display: block;
+}
+.footer .lower {
+font-family: 'UNIDAYSPro-Book', Arial;
+font-size: 0.875rem;
+padding: 12px 8px;
+}
+.footer .lower .copyright {
+text-align: center;
+color: #c9c9c9ce;
+line-height: 2;
+}
+
+footer div{
+    padding-left: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+footer div ul{
+    list-style: none;
+}
+footer .grupo{
+    padding-left: 50px;
+}
+
+.titulo1{
+height: 100px;
+width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+opacity: 85%;
+text-align: center;
+background-color: rgb(25, 55, 190);
+color: white;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor:hover .video {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.intro{
+    width: 50%;
+color: rgb(17, 2, 2);
+font-size: 20px;
+text-align: justify;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0 auto; /*centra de forma horizontal*/
+margin-top: 100px; /*Le da espacio en la parte de arriva*/
+padding: 20px 25px;  /*despega el contenido para que no este en la esquina*/
+}
+
+.descripcion{
+color: rgb(61, 60, 60);
+font-size: 17px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+    background: linear-gradient(80deg, #9ca1d0 30%, #959ef5 70%);
+    font-size: 25px;
+}
+.menu p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.btn {
+    display: inline-block;
+    background-color:#081697;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 60px;
+    border-radius: 4px;
+    margin-top: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  .btn:hover ,.btn:focus {
+    background-color: #fff;
+    bottom: 4px;
+    color: #081697;
+    box-shadow: 0 3px 1px #000;
+    cursor: pointer;
+  }
+ 
+.btn1, .btn2, .btn3, .btn4{
+margin-right: 4%;
+}
